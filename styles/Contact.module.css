@@ -1,0 +1,21 @@
+.wrapper{
+    height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.data li {
+    font-size: 25px;
+    margin: 4px;
+
+}
+
+.title{
+    font-family: monospace;
+}
+.contacts{
+    cursor: pointer;
+    text-decoration: none;
+}

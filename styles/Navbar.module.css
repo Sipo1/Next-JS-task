@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  background-color: rgb(7, 7, 87);
+}
+
+.logo {
+  height: auto;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+.links {
+  height: auto;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links a {
+  height: 90px;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links a:hover {
+  background-color: rgb(57, 70, 132)
+}
+
+.active {
+  background-color: rgb(57, 70, 132)
+
+
+}

@@ -1,0 +1,11 @@
+.wrapper {
+    height: calc(100vh - 180px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ErorDigit{
+    color: red;
+    font-size: 25px;
+}
